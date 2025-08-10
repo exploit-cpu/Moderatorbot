@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен: используем переменную окружения TELEGRAM_BOT_TOKEN или константу как запасной вариант
-BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN') or 'YOUR_TOKEN'
+BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN') or '8267666398:AAHoqr5l306G_EAWGreAlUtkODY-KOrSn60'
 
 
 # --- Вспомогательные функции ---
