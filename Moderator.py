@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 from telegram.utils.helpers import mention_html
 
 # ВАЖНО: Вставьте сюда свой токен, полученный от @BotFather
-BOT_TOKEN = 'YOUR_TOKEN' 
+BOT_TOKEN = '8267666398:AAHoqr5l306G_EAWGreAlUtkODY-KOrSn60' 
 
 # Включаем логирование для отладки
 logging.basicConfig(
@@ -192,4 +192,5 @@ def main() -> None:
     updater.idle()
 
 if __name__ == '__main__':
+
     main()
